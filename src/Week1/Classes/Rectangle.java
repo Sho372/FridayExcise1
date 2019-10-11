@@ -63,7 +63,7 @@ public class Rectangle {
       s += c;
     }
 
-    int h = getWidth();
+    int h = getHeight();
 
     for (int i = 0; i < h; i++) {
       System.out.println(s);
