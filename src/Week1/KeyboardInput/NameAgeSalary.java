@@ -14,7 +14,7 @@ public class NameAgeSalary {
     String name = input.next();
     System.out.println("");
 
-    System.out.println("Hi," + name + "!  How old are you?");
+    System.out.println("Hi, " + name + "!  How old are you?");
     String age = input.next();
     System.out.println("");
 
@@ -22,11 +22,10 @@ public class NameAgeSalary {
         "So you're "
             + age
             + ", eh?  That's not old at all!\n"
-            + "How much do you make,"
+            + "How much do you make, "
             + name
             + "?");
     Double d = input.nextDouble();
-    System.out.println(d);
     System.out.println("");
 
     System.out.println(Double.toString(d) + "! I hope that's per hour and not per year! LOL!");
